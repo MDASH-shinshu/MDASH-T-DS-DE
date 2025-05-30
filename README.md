@@ -31,7 +31,11 @@
 
 2025.2.26 URL変更された (common, otherサーバ)
 
-## 数理DS コア3科目（年度更新されない版） URL
+## 数理DS(全学DS教育推進本部) 科目（年度更新されない版） URL
+
+* 全学DS教育推進PJ <https://lms.ealps.shinshu-u.ac.jp/common/course/view.php?id=12>
+
+## 数理DS(T) コア3科目（年度更新されない版） URL
 
 * DS基礎 <https://lms.ealps.shinshu-u.ac.jp/common/course/view.php?id=87>
 * DE基礎 <https://lms.ealps.shinshu-u.ac.jp/common/course/view.php?id=88>
