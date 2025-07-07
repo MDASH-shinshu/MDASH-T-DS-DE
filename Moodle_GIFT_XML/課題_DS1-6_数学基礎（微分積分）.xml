@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/課題_DS1-6_数学基礎（微分積分）</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1079  -->
+  <question type="cloze">
+    <name>
+      <text>微分と積分</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[関数$$f(x) = \frac{1}{1 + e^{-x}}$$はロジスティック関数と呼ばれる。<br><br>関数$$f(x)$$の、$$x=1$$における微分係数$$f'(1)$$の値は、<br>小数第 3 位を四捨五入すると、<br>{5:SHORTANSWER:=0.20}である（半角数字で答えよ）。<br><br>定積分$$\int_{0}^{1} f(x) dx$$の値は、小数第 3 位を四捨五入すると、<br>{5:SHORTANSWER:=0.62}である（半角数字で答えよ）。<br><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1103  -->
+  <question type="cloze">
+    <name>
+      <text>課題1-1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[1.<br><br>SOCIETY 5.0 (内閣府):<br>https://www8.cao.go.jp/cstp/society5_0/<br><br>上のリンクのページを読みなさい。<br>その内容について述べた以下の文が正しいかどうか、それぞれ選べ。<br><br><ul><li>SOCIETY 5.0 とは、サイバー空間とフィジカル空間を高度に融合させたシステムにより、経済発展と社会的課題の解決を両立する、人間中心の社会である。→{2:MULTICHOICE_S:=正しい~正しくない}</li><li>SOCIETY 5.0 とは、必要な情報の探索・分析が負担となりリテラシーが必要な社会である。→{1:MULTICHOICE_S:=正しくない~正しい}</li><li>SOCIETY 5.0 とは、AIにより、必要な情報が必要な時に提供される社会である。→{1:MULTICHOICE_S:=正しい~正しくない}</li><li>SOCIETY 5.0 とは、狩猟によって食糧を得る社会である。→{1:MULTICHOICE_S:=正しくない~正しい}</li></ul><br>2.<br><br>How Netflix Data Science Powers Global Entertainment | Caitlin Smallwood (Netflix):<br>https://www.youtube.com/watch?v=0CGQvdAbNcc<br><br>上のリンクのプレゼンテーションを視聴しなさい。<br>その内容について述べた以下の文が正しいかどうか、それぞれ選べ。<br><br><ul><li>Netflix は、回帰分析、決定木、強化学習などにもとづく推薦システムを開発している。→{2:MULTICHOICE_S:=正しい~正しくない}</li><li>推薦システムは、視聴の傾向にしたがって視聴者を分類する。→{1:MULTICHOICE_S:=正しい~正しくない}</li><li>Netflix は、オリジナル作品の制作のための人気度予測システムを用いている。→{1:MULTICHOICE_S:=正しい~正しくない}</li><li>特定の地域向けの映画・番組の視聴状況を調べると、全視聴者のうち約3分の1が他の地域の視聴者である場合が多いことが分かった。→{1:MULTICHOICE_S:=正しくない~正しい}</li></ul><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1122  -->
+  <question type="cloze">
+    <name>
+      <text>課題2-1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[1.<br><br>データ分析について述べた以下の文が正しいかどうか、それぞれ選べ。<br><br><ul><li>データ分析を進めるには、満足な仮説とその検証が得られるまで、傾向や仮設の候補の発見および仮説の検証を繰り返す必要がある。→{1:MULTICHOICE_S:=正しい~正しくない}</li><li>分析対象や分析データの特徴および検証しようとしている仮説について良く考えずに、AIや深層学習からの出力を期待するのは危険である。→{1:MULTICHOICE_S:=正しい~正しくない}</li><li>傾向や仮説の候補の発見のため相関分析や回帰、仮説検定などの手法が用いられ、他方、仮説の検証のため可視化や特徴量の比較、クラスタリングなどの手法が用いられる。→{1:MULTICHOICE_S:=正しくない~正しい}</li><li>データには欠損値や外れ値などがあることが多いが、収集後の加工をなるべく避け、元のデータを尊重してそのまま用いるべきである。→{1:MULTICHOICE_S:=正しくない~正しい}</li><li>標本調査から母集団の性質を推測するには、偏りが生じないように標本を抽出しなければならない。→{1:MULTICHOICE_S:=正しい~正しくない}</li></ul><br>2.<br><br>15人が受けたある試験の点が以下の通りだとする。<br><br>[80, 97, 55, 30, 99, 100, 85, 60, 95, 95, 70, 93, 65, 70, 75]<br><br>平均値は{2:SHORTANSWER:=78}、<br>中央値は{2:SHORTANSWER:=80}、<br>分散は{2:SHORTANSWER:=374}、<br>標準偏差は{2:SHORTANSWER:=19}である<br>（それぞれ小数点以下を四捨五入して、整数で、半角数字で答えよ）。<br><br>もしあなたの点が80だとしたら、偏差値は{2:SHORTANSWER:=51}である<br>（小数点以下を四捨五入して、整数で、半角数字で答えよ）。<br><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1120  -->
+  <question type="cloze">
+    <name>
+      <text>課題3-1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[1.<br><br>データ観察について述べた以下の文が正しいかどうか、それぞれ選べ。<br><br><ul><li>クロス集計表とは、2種類の項⽬を組み合わせて、合計、平均、標準偏差等を集計したものである。→{1:MULTICHOICE_S:=正しい~正しくない}</li><li>散布図とは、度数分布表の値を棒グラフにしたものをという。→{1:MULTICHOICE_S:=正しくない~正しい}</li><li>パレート図は、平均値、四分位数、最⼤値、最⼩値、外れ値といった情報の観察に便利である。→{1:MULTICHOICE_S:=正しくない~正しい}</li></ul><br>2.<br><br>[9.9, 1.2, 9, 7.3, 0.8, 0, 7.1, 0.5, 6.5, 10.7, 10.6, 0.4, 0.4, 10.3, 10.8, 3.5, 9.3, 8.5, 10.4, 7.3, 0.1, 4.3, 11.2, 10.7, 0.6, 9.7, 7.2, 0, 8, 6.5, 10.6]<br><br>は、松本の2021年3月の日ごとの日照時間を並べたものである（出典：気象庁）。<br>ヒストグラムを描くと、<br>{7:MULTICHOICE:~2時間以上3時間未満~1時間以上2時間未満~=0時間以上1時間未満}の日が最も多いことが分かる。<br><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1115  -->
+  <question type="cloze">
+    <name>
+      <text>課題4-1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[1.<br><br>$$x_{i} =$$被験者$$i$$の喫煙本数<br>$$y_{i} =$$被験者$$i$$の肺疾患の有無(あり：1、なし：0)<br>とする($$i = 0, 1, \ldots, 8$$)。<br>次のデータが得られたとする。<br>つまり例えば、被験者$$0$$は喫煙本数1で肺疾患なし、被験者$$6$$は喫煙本数25で肺疾患あり、という意味である。<br><br>x = np.array([1,&nbsp; 6,&nbsp; 8, 10, 12, 19, 25, 29, 30])<br>y = np.array([0,&nbsp; 0,&nbsp; 0,&nbsp; 1,&nbsp; 0,&nbsp; 1,&nbsp; 1,&nbsp; 1,&nbsp; 1])<br><br><br>$$x_{i}$$が観測されたとき、$$y_{i}=1$$となる確率を<br><br>$$\pi_{i} = \Pr(y_{i}=1|x_{i})$$<br><br>とおく。これをロジスティック回帰モデルで表す。<br><br>$$<br>\pi_{i} = \frac{\exp(\beta_{0} + \beta_{1} x_{i})}{1 + \exp(\beta_{0} + \beta_{1} x_{i})}<br>$$<br><br>ここで回帰係数$$\beta_{0}$$, $$\beta_{1}$$を推定しなさい。<br><br>結果、喫煙本数16本の人に肺疾患がある確率が約{5:SHORTANSWER:=44}%と推定される（小数点以下を四捨五入して、整数で、半角数字で答えよ）。<br><br>2.<br><br>制約条件<br>$$x_{1} + 18 x_{2} \leq 324, 19 x_{1} + 13 x_{2} \leq 426, 4 x_{1} + 5 x_{2} \leq 101$$<br>の下で、目的関数<br>$$21 x_{1} + 17 x_{2}$$<br>を最大化する最適化問題を解きなさい。<br>$$x_{1}$$={2:SHORTANSWER:=19}、$$x_{2}$$={2:SHORTANSWER:=5}のとき、<br>目的関数は最大値{1:SHORTANSWER:=484}をとる（それぞれ整数で、半角数字で答えよ）。<br><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1112  -->
+  <question type="cloze">
+    <name>
+      <text>課題5-1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">1.<br><br>[1.4, 2.2, -1.1, 3.1, 2.7, 4.3, 2.5, 3.9, 0.3, 2.8, -0.5, 2.3, 4.5, 2.6, -0.7, 0.8, 2.9, -0.3, 1.5, 3.1, 9.9, 2.9, -0.7, 0, 4, 0.7, 1.2, 10.6, 10.7, 7.3, 7.3]<br><br>は、飯田の2021年3月の日ごとの最低気温を並べたものである（出典：気象庁）。<br><br>線形回帰により、1日あたり約{5:SHORTANSWER:=0.15}度上昇していることが分かる<br>（小数第 3 位を四捨五入して、半角数字で答えよ）。<br><br>2.<br><br>[7, 0, 10.5, 4.4, 1.2, 4.9, 1.4, 2.1, 5.7, 10.4, 10.6, 0, 0.3, 10.5, 10.9, 1.2, 10.1, 10.9, 10.7, 8.7, 0, 9.9, 11.2, 11.2, 0.8, 9.6, 9.2, 0, 8.4, 7.2, 11.2]<br><br>は、飯田の2021年3月の日ごとの日照時間を並べたものである（出典：気象庁）。<br><br>中央値は{5:MULTICHOICE:~2.1~=8.4}である。<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1086  -->
+  <question type="cloze">
+    <name>
+      <text>課題6-1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">1.<br><br>1から1000までの整数のうち、<br>2または7で割り切れるが、3で割り切れないものをすべて集めた集合を考えよ。<br>この集合の要素の個数は{2:SHORTANSWER:=381}である（半角数字で答えよ）。<br><br>2.<br><br>コインを投げた際に表が出る確率が0.5であるとする。<br>このコインを20回投げた際に表が8回出る確率は{2:SHORTANSWER:=0.12}である。<br>このコインを30回投げた際に表が19回出る確率は{2:SHORTANSWER:=0.05}である。<br>（いずれも小数第 3 位を四捨五入して、半角数字で答えよ）。<br><br>3.<br><br>帰無仮説「コインの表が出る確率は0.5である」を設定する。<br><br>検定統計量：<br>「コインを30回投げた際に表が出る総数」<br>とする。<br><br>対立仮説「コインの表が出る確率は0.5より⼤きい」を設定する。<br><br>いま実際に19回表が出たとする。<br>このとき、有意水準5%で帰無仮説は{4:MULTICHOICE:~棄却される~=棄却されない}。<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1095  -->
+  <question type="cloze">
+    <name>
+      <text>課題7-1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[1.<br><br>$$<br>\begin{bmatrix}<br>1 &amp;&nbsp; 2 \\<br>-1 &amp; -2 \\<br>\end{bmatrix}<br>\begin{bmatrix}<br>x \\<br>1 \\<br>\end{bmatrix}<br>=<br>\begin{bmatrix}<br>0 \\<br>0 \\<br>\end{bmatrix}<br>$$<br>が成り立つとする。<br>このときx={1:SHORTANSWER:=-2}である（半角数字で答えよ）。<br><br>行列<br>$$<br>\begin{bmatrix}<br>1 &amp;&nbsp; 2 \\<br>-1 &amp; -2 \\<br>\end{bmatrix}<br>$$<br>の固有値は、{1:SHORTANSWER:=-1}と{1:SHORTANSWER:=0}である。<br>（小さいものから順に半角数字で答えよ）。<br><br>2.<br><br>$$380^{8553}$$ の10進法での桁数は{2:SHORTANSWER:=50807}である（半角数字で答えよ）。<br><br>$$2^{34} \times 7^{56}$$ と $$8^{34} \times 3^{56}$$ の大小を比べよ。<br>結果、{1:MULTICHOICE:~後者~=前者}が大きいことが分かる。<br><br>3.<br><br>関数$$f(x) = \frac{1}{1 + e^{-x}}$$はロジスティック関数と呼ばれる。<br><br>関数$$f(x)$$の、$$x=1$$における微分係数$$f'(1)$$の値は、<br>小数第 3 位を四捨五入すると、<br>{2:SHORTANSWER:=0.20}である（半角数字で答えよ）。<br><br>4.<br><br>定積分$$\int_{0}^{1} f(x) dx$$の値は、小数第 3 位を四捨五入すると、<br>{2:SHORTANSWER:=0.62}である（半角数字で答えよ）。<br><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1091  -->
+  <question type="cloze">
+    <name>
+      <text>課題8-1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[1.<br><br>$$i = 1, 2, \ldots, 58$$について、「$$2^{i}$$を$$59$$で割った余り」<br>を順に並べたリストから、<br>線形探索を用いて、48を探しなさい。<br>結果、添え字{3:SHORTANSWER:=53}が48であると分かる（半角数字で答えよ）。<br><br>2.<br><br>リスト<br>[1, 3, 6, 9, 12, 13, 15, 17, 18, 19, 24, 26, 27, 30, 31, 34, 36, 37, 38, 39, 43, 45, 48, 49, 51, 52, 54, 55, 57]<br>から、2分探索を用いて、48を探しなさい。<br>結果、添え字{3:SHORTANSWER:=22}が48であると分かる（半角数字で答えよ）。<br><br>3.<br><br>リスト<br>[698150, 1296457, 823460, 1679693, 903959, 1902996, 853665, 1844992, 551830]<br>を、並べ替えのアルゴリズムのいずれかを用いて、小さい順に並べ替えなさい。<br>結果、3番目に大きな値は{4:SHORTANSWER:=1679693}と分かる（半角数字で答えよ）。<br><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1082  -->
+  <question type="cloze">
+    <name>
+      <text>課題8-2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[次の関数を考えよう。<br>$$f(x, y) = |x^{2} - 13 y^{2} - 1|$$<br>($$1 \leq x \leq 1000$$ かつ $$1 \leq y \leq 1000$$ かつ $$x$$と$$y$$はともに整数)<br><br>この関数は<br>$$x = $${4:SHORTANSWER:=649}、$$y = $${4:SHORTANSWER:=180}で<br>最小値{2:SHORTANSWER:=0}をとる（いずれも半角数字で答えよ）。<br><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>
