@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/課題_DE2-7_B_プログラミング実践_演習問題</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 5524  -->
+  <question type="multichoiceset">
+    <name>
+      <text>numpyスライス</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">次のコードを実行したとき，結果として正しいものをすべて選べ．</span></p><p dir="ltr"><span style="font-size: 14.7831px;">import numpy as np</span></p><p dir="ltr"><span style="font-size: 14.7831px;">a = np.arange(10)&nbsp; &nbsp;# [0 1 2 3 4 5 6 7 8 9]</span></p><p dir="ltr"></p><p dir="ltr"><span style="font-size: 14.7831px;">print(a[1:4])</span></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>　</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>　</text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">[0 1 2]</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">[1 2 3]</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">[1 2 3 4]</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">[2 3 4]</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5525  -->
+  <question type="multichoiceset">
+    <name>
+      <text>numpyブロードキャスト</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">次のコードを実行したとき，b+aの演算の説明として正しいものをすべて選べ．</span></p><p dir="ltr"><span style="font-size: 14.7831px;">import numpy as np</span></p><p dir="ltr"><span style="font-size: 14.7831px;">a = np.array([1, 2, 3])&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# shape = (3,)</span></p><p dir="ltr"><span style="font-size: 14.7831px;">b = np.ones((3,3))&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # shape = (3,3)</span></p><p dir="ltr"></p><p dir="ltr"><span style="font-size: 14.7831px;">print(b + a)</span></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>　</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>　</text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">エラーになる</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">bの各行に [1 2 3] が加算される</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">bの各列に [1 2 3] が加算される<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">bのすべての要素が 2 になる</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">b + a で得られる配列の shape は (3,3) になる<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5522  -->
+  <question type="multichoiceset">
+    <name>
+      <text>Numpy配列</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">次のコードを実行したときの出力として正しいものをすべて選べ．<br><br></span></p><p dir="ltr"><span style="font-size: 14.7831px;">import numpy as np</span></p><p dir="ltr"><span style="font-size: 14.7831px;">a = np.arange(2, 7)</span></p><p dir="ltr"></p><p dir="ltr"><span style="font-size: 14.7831px;">print(a)</span></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>　</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>　</text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">[1 2 3 4 5 6]</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">[2 3 4 5 6]</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">[2 3 4 5 6 7]</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">[1 2 3 4 5 6 7]</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5531  -->
+  <question type="multichoiceset">
+    <name>
+      <text>pandas 統計</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">次の説明のうち正しいものはどれか．すべて選べ．</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">データフレームdfに対してdf.describe() は数値列のcount, mean, std, min, 25%, 50%, 75%, maxの統計量を出力に含む．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">データフレームdfに対してdf.groupby("species").mean(numeric_only=True) は speciesの値の種類ごとに数値列の平均を計算する．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr">DatetimeIndex を行ラベルに持つ df_time に対して df_time.resample("ME").mean() を実行すると，月ごとの平均値が月末日を行ラベルとして得られる．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">snsがseaboanライブラリを参照するとき，sns.scatterplot(data=df, x="A", y="B") はデータフレームdfの A列の値をx座標，B列の値をy座標とする散布図を<span style="font-size: 0.9375rem;">描く．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">データフレームdfに対してdf.groupby("species")["sepal_length"].mean() は species 列も計算対象に含めて平均を計算する．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DatetimeIndex を行ラベルに持つ df_time に対してdf_time.resample("W-MON").mean() は月曜区切りの週集計（平均値の計算）を行う．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DatetimeIndex を行ラベルに持つ df_time に対してdf_time.resample("min").mean() は秒単位での平均を計算する．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">データフレームdfに対してdf["sepal_length"].hist(bins="auto", density=False) で描画されるヒストグラムは常に面積1に正規化される．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5533  -->
+  <question type="multichoiceset">
+    <name>
+      <text>Pandas 行・列・欠損値処理</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">次の説明のうち正しいものはどれか．すべて選べ．<br>ただし，dfはデータフレームを表す変数とし，pdはpandasライブラリを参照する変数とする．</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>　</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>　</text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">df["A"] = df["A"].astype(int) は列 A を整数型に変換する．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">df["C"] = pd.to_datetime(df["C"]) は列 C の日付文字列を日付型に変換する．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">df.dropna(subset=["A","B"]) は列 A または B に欠損がある行を削除する．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">df.fillna(df.mean(numeric_only=True)) は各「数値列」の平均で，その列の欠損を埋める．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">df.rename(columns={"A":"col_A"}) は列 A を col_A に名称変更する．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5519  -->
+  <question type="multichoiceset">
+    <name>
+      <text>ファイル操作</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">次のうち，open のモードやテキスト処理の説明として正しいものはどれか．すべて選べ．</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">open('a.txt', 'r', encoding='utf-8') は読み出し専用で開く．ファイルが無いとエラー．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="font-size: 14.7831px;">open('a.txt', 'w', encoding='utf-8') は新規/上書きで開くため，既存の内容は消える．</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">open('a.txt', 'a', encoding='utf-8') は追記モードで開き，常に末尾に書く．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr"><span style="font-size: 14.7831px;">バイナリモード（'b'）はテキストの自動改行変換やエンコーディング変換を行う．</span></p><p><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">文字化けを避けるために，テキストファイルを開く際は encoding 引数を明示するのが望ましい．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5521  -->
+  <question type="multichoiceset">
+    <name>
+      <text>ファイル書き込み</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">次のファイル書き込みや with 文の利用方法に関する説明のうち，正しいものはどれか．すべて選べ．</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">f.write(123) のように数値をそのまま渡すと自動で文字列化されて書き込まれる．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">f.writelines(['a\n','b\n']) は改行を自動付与しないため，改行が必要ならば \n を明記する．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">with open('x.txt','w',encoding='utf-8') as f: のブロックを抜けると自動で close() される．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">open('x.txt','x') は新規作成専用で，同名ファイルがあるとエラーになる．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5520  -->
+  <question type="multichoiceset">
+    <name>
+      <text>ファイル読み出し</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">ファイルオブジェクトの読み出しに関する説明として正しいものをすべて選べ．</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>　</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>　</text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">f.read() はファイル全体，もしくは指定サイズ分の文字を読み出す．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">f.readline() は1行だけを読み出す．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">f.readlines() はすべての行をリストとして読み出す．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">f.read() を繰り返し呼び出すと，前回読み出した位置から続きを読み出す．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">f.read() を呼ぶたびに必ず最初からデータを読み出す．</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5532  -->
+  <question type="multichoiceset">
+    <name>
+      <text>単回帰分析</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">次の単回帰分析に関する説明のうち，正しいものをすべて選べ．</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>　</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>　</text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">単回帰分析は，1つの説明変数と1つの目的変数の関係を直線で近似する方法である．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">回帰直線の「傾き」は，説明変数が1増えたときに目的変数がどれだけ変化するかを表す．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">回帰直線の「切片」は，説明変数が0のときの目的変数の値を表す．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">単回帰分析では，散布図の点を必ずすべて直線が通るように調整する．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">単回帰分析の目的は，変数間の関係をモデル化し，予測や解釈に活用することである．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5527  -->
+  <question type="multichoiceset">
+    <name>
+      <text>疑似乱数</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">次のコードについて正しいものをすべて選べ．</span></p><p dir="ltr"><span style="font-size: 14.7831px;">import numpy as np</span></p><p dir="ltr"><span style="font-size: 14.7831px;">np.random.seed(42)</span></p><p dir="ltr"><span style="font-size: 14.7831px;">x1 = np.random.rand(3)</span></p><p dir="ltr"><span style="font-size: 14.7831px;">print("x1 =", x1)</span></p><p dir="ltr"><span style="font-size: 14.7831px;">np.random.seed(42)</span></p><p dir="ltr"><span style="font-size: 14.7831px;">x2 = np.random.rand(3)</span></p><p dir="ltr"></p><p dir="ltr"><span style="font-size: 14.7831px;">print("x2 =", x2)</span></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>　</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>　</text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">x1 と x2 は必ず同じ内容になる</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">x1 と x2 は実行のたびに変わる</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">seed を固定すると乱数列を再現できる</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">np.random.rand(3) は標準正規分布に従う乱数を生成する</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5528  -->
+  <question type="multichoiceset">
+    <name>
+      <text>統計量</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">次のコードを実行したとき，出力に関して正しいものをすべて選べ．<br></span></p><p dir="ltr"><span style="font-size: 14.7831px;">import numpy as np</span></p><p dir="ltr"><span style="font-size: 14.7831px;">data = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9])</span></p><p dir="ltr"><span style="font-size: 14.7831px;">print("mean&nbsp; &nbsp;=", np.mean(data))</span></p><p dir="ltr"><span style="font-size: 14.7831px;">print("median =", np.median(data))</span></p><p dir="ltr"><span style="font-size: 14.7831px;">print("Q1 =", np.percentile(data, 25))</span></p><p dir="ltr"></p><p dir="ltr"><span style="font-size: 14.7831px;">print("Q3 =", np.percentile(data, 75))</span></p><p dir="ltr"><span style="font-size: 14.7831px;"></span></p><div><div>print("std =", np.std(data))</div></div><br><p></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">平均は 5.0</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">中央値は 5.0</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">第1四分位点 (Q1) は 3.0</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">第3四分位点 (Q3) は 7.0</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">標準偏差は 3.0</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
