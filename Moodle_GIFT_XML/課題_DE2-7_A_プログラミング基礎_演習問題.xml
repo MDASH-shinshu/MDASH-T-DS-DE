@@ -11,7 +11,7 @@
     <idnumber></idnumber>
   </question>
 
-<!-- question: 5518  -->
+<!-- question: 6802  -->
   <question type="multichoiceset">
     <name>
       <text>ディクショナリ</text>
@@ -48,19 +48,19 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">in を用いることでディクショナリにキーが存在するかを調べられる．<br>用例：k in d <br>※kはキー候補，dはディクショナリ型のデータを表すとする．</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">in を用いることで，ディクショナリにあるキーが存在するかを調べられる．<br>用例：k in d <br>※kは存在を調べたいキー，dはディクショナリ型のデータを表すとする．</p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">getメソッドを用いることで，たとえディクショナリに存在しないキーを引数に与えてもエラーにならない．<br>用例：d.get(k)<br>※kはキー候補，dはディクショナリ型のデータを表すとする．<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">getメソッドを用いることで，ディクショナリに存在しないキーを引数に与えても（エラーにならずに）値が得られる．<br>用例：d.get(k)<br>※kは調べたいキー，dはディクショナリ型のデータを表すとする．<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">itemsメソッドを用いることで，キーと値の組を順々に取り出せる．<br><span style="font-size: 0.9375rem;">用例：for k, v in d.items</span><span style="font-size: 0.9375rem;">()<br></span><span style="font-size: 0.9375rem;">※kはキー，vは値，dはディクショナリ型のデータを表すとする．</span></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">itemsメソッドを用いることで，キーと値の組を1組ずつ順に取り出せる．<br><span style="font-size: 0.9375rem;">用例：for k, v in d.items</span><span style="font-size: 0.9375rem;">()<br></span><span style="font-size: 0.9375rem;">※kにキー，vに値が代入される．dはディクショナリ型のデータを表すとする．</span></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -123,7 +123,7 @@
     </answer>
   </question>
 
-<!-- question: 5498  -->
+<!-- question: 6803  -->
   <question type="multichoiceset">
     <name>
       <text>リテラルとデータ型</text>
@@ -166,7 +166,7 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">2+3j</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">3j</p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>

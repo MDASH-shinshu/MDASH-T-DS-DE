@@ -167,13 +167,13 @@
     </answer>
   </question>
 
-<!-- question: 5531  -->
+<!-- question: 6800  -->
   <question type="multichoiceset">
     <name>
       <text>pandas 統計</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">次の説明のうち正しいものはどれか．すべて選べ．</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">pandasに関して次の説明のうち正しいものはどれか．すべて選べ．</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -204,13 +204,13 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr">DatetimeIndex を行ラベルに持つ df_time に対して df_time.resample("ME").mean() を実行すると，月ごとの平均値が月末日を行ラベルとして得られる．</p>]]></text>
+      <text><![CDATA[<p dir="ltr">日付（DatetimeIndex）を行ラベルに持つデータフレームdf_time に対して df_time.resample("ME").mean() を実行すると，月ごとの平均値が月末日を行ラベルとして得られる．</p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">snsがseaboanライブラリを参照するとき，sns.scatterplot(data=df, x="A", y="B") はデータフレームdfの A列の値をx座標，B列の値をy座標とする散布図を<span style="font-size: 0.9375rem;">描く．</span></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">snsがseabornライブラリを参照するとき，sns.scatterplot(data=df, x="A", y="B") はデータフレームdfの A列の値をx座標，B列の値をy座標とする散布図を<span style="font-size: 0.9375rem;">描く．</span></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -222,13 +222,13 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DatetimeIndex を行ラベルに持つ df_time に対してdf_time.resample("W-MON").mean() は月曜区切りの週集計（平均値の計算）を行う．</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">日付（DatetimeIndex）を行ラベルに持つデータフレームdf_time に対してdf_time.resample("W-MON").mean() は月曜区切りの週集計（平均値の計算）を行う．</p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DatetimeIndex を行ラベルに持つ df_time に対してdf_time.resample("min").mean() は秒単位での平均を計算する．</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">日付（DatetimeIndex）を行ラベルに持つデータフレームdf_time に対してdf_time.resample("min").mean() は秒単位での平均を計算する．</p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -297,7 +297,7 @@
     </answer>
   </question>
 
-<!-- question: 5519  -->
+<!-- question: 6797  -->
   <question type="multichoiceset">
     <name>
       <text>ファイル操作</text>
@@ -340,7 +340,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr"><span style="font-size: 14.7831px;">バイナリモード（'b'）はテキストの自動改行変換やエンコーディング変換を行う．</span></p><p><br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span style="font-size: 14.7831px;">バイナリモード（'b'）はテキストの自動改行変換やエンコーディング変換を行う．</span></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -459,7 +459,7 @@
     </answer>
   </question>
 
-<!-- question: 5532  -->
+<!-- question: 6801  -->
   <question type="multichoiceset">
     <name>
       <text>単回帰分析</text>
@@ -484,19 +484,19 @@
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">単回帰分析は，1つの説明変数と1つの目的変数の関係を直線で近似する方法である．</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">単回帰分析は，1つの説明変数と1つの目的変数の直線的な関係を直線で近似する方法である．</p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">回帰直線の「傾き」は，説明変数が1増えたときに目的変数がどれだけ変化するかを表す．</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">回帰直線の「傾き」は，説明変数が1増えたときに目的変数が平均的にどれだけ変化すると予測されるかを表す．</p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">回帰直線の「切片」は，説明変数が0のときの目的変数の値を表す．</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">回帰直線の「切片」は，説明変数が0のときに目的変数がとると予測される値を表す．</p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -508,7 +508,13 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">単回帰分析の目的は，変数間の関係をモデル化し，予測や解釈に活用することである．</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">単回帰分析の目的は，2つの変数の関係を1本の直線でモデル化し，予測や傾向の把握に役立てることである．</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">単回帰分析で得られる関係は変数間の対応（相関的な関係）であり，一方を変化させればもう一方が必ずその通りに変わるという因果関係を示すとは限らない．</p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
