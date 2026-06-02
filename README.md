@@ -24,7 +24,7 @@
 4. データ表現（☆）
 5. 数学基礎（AIで使う数学・実用編）（※）
 6. アルゴリズム基礎（※）
-7. プログラミング基礎（演習）
+7. プログラミング基礎（演習）（※）
 8. プログラミング実践（演習）
 
 # memo
@@ -40,7 +40,7 @@
 * DS基礎 <https://lms.ealps.shinshu-u.ac.jp/common/course/view.php?id=87>
 * DE基礎 <https://lms.ealps.shinshu-u.ac.jp/common/course/view.php?id=88>
 
-* 新DS・DE基礎(構築中) <https://lms.ealps.shinshu-u.ac.jp/common/course/view.php?id=86>
+* 新DS・DE基礎 <https://lms.ealps.shinshu-u.ac.jp/common/course/view.php?id=86>
 * 新AI基礎 <https://lms.ealps.shinshu-u.ac.jp/common/course/view.php?id=89>
 
 ## 工学部 学部共通科目 データサイエンス科目（2023 R5年度版）　URL
@@ -54,6 +54,11 @@
 * DS基礎(2024) <https://lms.ealps.shinshu-u.ac.jp/2024/t/course/view.php?id=594>
 * DE基礎(2024) <https://lms.ealps.shinshu-u.ac.jp/2024/t/course/view.php?id=401>
 * AI基礎(2024) <https://lms.ealps.shinshu-u.ac.jp/2024/t/course/view.php?id=595>
+
+## 工学部 学部共通科目 データサイエンス科目（2026 R7年度版）　URL
+
+* DS基礎(2026) <https://lms.ealps.shinshu-u.ac.jp/2026/t/course/view.php?id=403>
+* DE基礎(2026) <https://lms.ealps.shinshu-u.ac.jp/2026/t/course/view.php?id=404>
 
 ## 学外連携・その他 eALPS URL
 
